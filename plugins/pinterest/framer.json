@@ -1,0 +1,6 @@
+{
+    "id": "PinBrowse",
+    "name": "Pinterest",
+    "modes": ["canvas", "editImage", "image"],
+    "icon": "/Pinterest.png"
+}

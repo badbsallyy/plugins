@@ -1,0 +1,24 @@
+{
+    "name": "pinterest",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "framer-plugin dev",
+        "build": "framer-plugin build"
+    },
+    "dependencies": {
+        "@tanstack/react-query": "^5.87.4",
+        "classnames": "^2.5.1",
+        "framer-plugin": "^3.6.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-error-boundary": "^6.0.0",
+        "tailwindcss": "^4.1.13",
+        "valibot": "^1.2.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.3.24",
+        "@types/react-dom": "^18.3.7"
+    }
+}
