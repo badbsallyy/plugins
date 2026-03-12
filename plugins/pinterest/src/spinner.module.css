@@ -1,0 +1,30 @@
+.baseStyle {
+    border-radius: 50%;
+    border: 2px solid var(--framer-color-divider);
+    border-top-color: var(--framer-color-tint);
+    animation: spin 0.6s linear infinite;
+}
+
+.normalStyle { width: 16px; height: 16px; }
+.mediumStyle { width: 24px; height: 24px; }
+.largeStyle { width: 32px; height: 32px; }
+
+.centeredStyle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.buttonWithDepthSpinner {
+    border-color: rgba(255, 255, 255, 0.3);
+    border-top-color: white;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.spin {
+    animation: spin 0.6s linear infinite;
+}
